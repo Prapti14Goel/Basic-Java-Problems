@@ -1,0 +1,18 @@
+Question 8)..Two numbers are entered by the user, x and n. Write a function to find the value of one number raised to the power of another i.e. xn.
+
+SOLUTION:
+
+class Main {
+  public static void main(String[] args) {
+
+    int base = 3, exponent = 4;
+
+    long result = 1;
+
+    for (; exponent != 0; --exponent) {
+      result *= base;
+    }
+
+    System.out.println("Answer = " + result);
+  }
+}
